@@ -39,7 +39,7 @@ ur_manipulator_controller:
       i: 1
       i_clamp: 1
 gripper_controller:
-  type: effort_controllers/JointTrajectoryController
+  type: gripper_controller/GripperCommand
   joints:
     - rg2_gripper_finger_left_joint
   gains:
